@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{22232D6B-1BDB-4567-875D-ED869BFCC0E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Single Responsibility Principle", "Single Responsibility Principle", "{096D1107-DAD3-4C8A-B84C-36874B3FB2FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Open Closed Principle", "Open Closed Principle", "{2E9D2150-3672-41D8-BFF8-F768B28CA75B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Liskov Substitution Principle", "Liskov Substitution Principle", "{1B43D113-AC5F-49E9-815B-FD7589773041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Segregation Principle", "Interface Segregation Principle", "{4DF1356D-D45B-4826-8DBA-19599035E51C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Inversion Principle", "Dependency Inversion Principle", "{19375754-DA98-4CDC-A6C1-ABA50DA90653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VianaSoft.Solid.SRP.Console", "src\VianaSoft.Solid.SRP.Console\VianaSoft.Solid.SRP.Console.csproj", "{6C54307F-FA4A-4EA9-B58B-F54B69ADE548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C54307F-FA4A-4EA9-B58B-F54B69ADE548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C54307F-FA4A-4EA9-B58B-F54B69ADE548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C54307F-FA4A-4EA9-B58B-F54B69ADE548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C54307F-FA4A-4EA9-B58B-F54B69ADE548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{096D1107-DAD3-4C8A-B84C-36874B3FB2FE} = {22232D6B-1BDB-4567-875D-ED869BFCC0E4}
+		{2E9D2150-3672-41D8-BFF8-F768B28CA75B} = {22232D6B-1BDB-4567-875D-ED869BFCC0E4}
+		{1B43D113-AC5F-49E9-815B-FD7589773041} = {22232D6B-1BDB-4567-875D-ED869BFCC0E4}
+		{4DF1356D-D45B-4826-8DBA-19599035E51C} = {22232D6B-1BDB-4567-875D-ED869BFCC0E4}
+		{19375754-DA98-4CDC-A6C1-ABA50DA90653} = {22232D6B-1BDB-4567-875D-ED869BFCC0E4}
+		{6C54307F-FA4A-4EA9-B58B-F54B69ADE548} = {096D1107-DAD3-4C8A-B84C-36874B3FB2FE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADDE0291-9FF9-43AC-A40B-5F38C13D66FB}
+	EndGlobalSection
+EndGlobal
