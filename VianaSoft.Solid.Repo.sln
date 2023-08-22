@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VianaSoft.Solid.SRP.Console
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VianaSoft.Solid.OCP.Console", "src\VianaSoft.Solid.OCP.Console\VianaSoft.Solid.OCP.Console.csproj", "{490D3A40-BCEE-457A-9A9F-B2D2F8782044}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VianaSoft.Solid.LSP.Console", "src\VianaSoft.Solid.LSP.Console\VianaSoft.Solid.LSP.Console.csproj", "{FE54F95E-4E8B-482A-883B-C822FBDE4D28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{490D3A40-BCEE-457A-9A9F-B2D2F8782044}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{490D3A40-BCEE-457A-9A9F-B2D2F8782044}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{490D3A40-BCEE-457A-9A9F-B2D2F8782044}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE54F95E-4E8B-482A-883B-C822FBDE4D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE54F95E-4E8B-482A-883B-C822FBDE4D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE54F95E-4E8B-482A-883B-C822FBDE4D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE54F95E-4E8B-482A-883B-C822FBDE4D28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{19375754-DA98-4CDC-A6C1-ABA50DA90653} = {22232D6B-1BDB-4567-875D-ED869BFCC0E4}
 		{6C54307F-FA4A-4EA9-B58B-F54B69ADE548} = {096D1107-DAD3-4C8A-B84C-36874B3FB2FE}
 		{490D3A40-BCEE-457A-9A9F-B2D2F8782044} = {2E9D2150-3672-41D8-BFF8-F768B28CA75B}
+		{FE54F95E-4E8B-482A-883B-C822FBDE4D28} = {1B43D113-AC5F-49E9-815B-FD7589773041}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADDE0291-9FF9-43AC-A40B-5F38C13D66FB}
